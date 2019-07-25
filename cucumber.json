@@ -1,0 +1,124 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8047133922,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Successful Login with Valid Credentials",
+        "description": "",
+        "id": "copperegg-login-feature;successful-login-with-valid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 923154481,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14346667890,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User is on Login Page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_on_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 160222373,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Title of login page is \"CopperEgg\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "CopperEgg",
+                  "offset": 24
+                }
+              ],
+              "location": "LoginStepDefinition.title_of_login_page_is_copperegg(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 588322447,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters \"govindaraju.shilpa@gmail.com\" and \"copperegg\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "govindaraju.shilpa@gmail.com",
+                  "offset": 13
+                },
+                {
+                  "val": "copperegg",
+                  "offset": 48
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4983055841,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on Login Button",
+            "match": {
+              "location": "LoginStepDefinition.click_on_Login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 222742787,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is on home page",
+            "match": {
+              "location": "LoginStepDefinition.User_is_on_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "CopperEgg login feature",
+    "description": "",
+    "id": "copperegg-login-feature",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/login.feature"
+  }
+]
